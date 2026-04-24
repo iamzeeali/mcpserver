@@ -24,8 +24,6 @@ app.post("/chat", async (req, res) => {
         res.json({ answer });
     } catch (err) {
         res.status(500).json({ error: err.message });
-        console.error("zeeshansk-proj-Ms-iFTLyhyabITOncR6P64jjt52rCYNE6usV5ozyNORaBS2hU0SeXgdzXF6L2VRLxqaZC1348XT3BlbkFJyt_byTHZs_gAzY9vhm_whtO-Ag8kYmk410sU-k2yuwwZIiwXIRqXi_d7t6gcjuIohRzBZCJ78A" +
-            "zeeshana456804d39d0c7dfcbeb71f569f9c66d", err);
     }
 });
 
